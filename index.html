@@ -1,0 +1,18 @@
+---
+title: Cédric Courtaud
+layout: default
+---
+
+<h1 id="about"> About Me </h1>
+{% include about.html %}
+
+<h1 id="research"> Research Interest </h1>
+
+{{ site.data.research.content | markdownify }}
+
+<h1 id="publications"> Publications </h1>
+
+{% include publications.html %}
+
+<h1 id="contact">Contact</h1>
+{% include contact.html %}

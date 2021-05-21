@@ -1,0 +1,4 @@
+plugins: ['jekyll/scholar']
+
+scholar:
+  source: ./_publications

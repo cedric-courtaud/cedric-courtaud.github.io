@@ -1,0 +1,39 @@
+<div id="visitcard">
+
+
+<!--
+<div id="visitname"> {{ site.data.contact.name }} </div>
+<div id="visitjob"> {{ site.data.contact.job }} </div>
+-->
+
+
+<div class="row">
+
+  <div class="contact-column">
+    <h2> email </h2>
+    {{ site.data.contact.email }}
+    <h2> Telephone </h3>
+    {{ site.data.contact.tel }}
+    <h2> Fax </h2>
+    {{ site.data.contact.fax }}
+  </div>
+
+  <div class="contact-column">
+    <h2> Physical location </h2>
+    {{ site.data.contact.paddr.room}} <br/>
+    {{ site.data.contact.paddr.location}} <br/>
+    {{ site.data.contact.paddr.city}} <br/>
+
+    <h2> Mailing address </h2>
+    {{ site.data.contact.maddr.name}}<br/>
+    {{ site.data.contact.maddr.firm }}<br/>
+    {{ site.data.contact.maddr.street }}<br/>
+    {{ site.data.contact.maddr.zip }}
+    {{ site.data.contact.maddr.city }}
+  </div>
+</div>
+
+
+
+
+</div>

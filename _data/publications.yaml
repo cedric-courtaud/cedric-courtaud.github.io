@@ -1,0 +1,30 @@
+- title: Maximizing parallelism without exploding deadlines in a mixed criticality embedded system
+  author: Antoine Blin, Cédric Courtaud, Julien Sopena, Julia Lawall, Gille Muller
+  booktitle: 28th Euromicro Conference on Real-Time Systems (ECRTS'2016)
+  year: 2016
+  type: conference
+
+- title: Understanding the memory consumption of the MiBench embedded benchmark
+  author: Antoine Blin, Cédric Courtaud, Julien Sopena, Julia Lawall, Gille Muller
+  booktitle: International Conference on Networked Systems (Netys'2016)
+  year: 2016
+  type: conference
+
+
+- title: Improving Prediction Accuracy of Memory Interferences for Multicore Platforms
+  author: Cédric Courtaud, Julien Sopena, Gilles Muller, Daniel Gracia Pérez
+  booktitle: 40th IEEE Real-Time Systems Symposium (RTSS'2019),
+  year: 2019
+  type: conference
+
+- title: Method for controlling a multi-core processor and associated computer
+  author: Cédric Courtaud, Xavier Jean, Madeleing Faugere, Gilles Muller, Julien Sopena, Julia Lawall
+  booktitle: US Patent App. 16/473,190
+  year: 2016
+  type: patent
+
+- title: Caractérisation de la sensibilité aux interférences mémoire dans les systèmes temps-réels embarqués sur des plateformes multi-coeurs
+  author: Cédric Courtaud
+  year: 2020
+  school: Sorbonne Universites, UPMC University of Paris 6
+  type: phdthesis

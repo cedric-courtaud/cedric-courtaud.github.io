@@ -1,0 +1,192 @@
+// font-family: 'Farro', sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+
+$color1: #0f1626;
+$color2: #ab987a;
+$color3: #ff533d;
+$color4: #f5f5f5;
+
+/* farro-regular - latin */
+@font-face {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/farro-v4-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/farro-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/farro-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/farro-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/farro-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/farro-v4-latin-regular.svg#Farro') format('svg'); /* Legacy iOS */
+};
+
+@font-face {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+src: url('../fonts/montserrat-v15-latin-regular.eot'); /* IE9 Compat Modes */
+src: local(''),
+        url('../fonts/montserrat-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/montserrat-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/montserrat-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/montserrat-v15-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+};
+
+body {
+    background-color: $color4;
+    color: darkslategray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    width:60%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Farro', sans-serif;
+    color: $color1;
+    // font-size: 2.4em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    color: $color2;
+    text-align: center;
+}
+
+#main-content {
+    // max-width: 50%;
+    //left:30%;
+    // position: fixed;
+    // float: left;
+    padding-top: 40px;
+    padding: 6%;
+    top:0;
+}
+
+#visitname {
+    font-family: 'Farro', sans-serif;
+    font-size: 3em;
+    color: $color1;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+#visitjob {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    color: $color3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#about {
+}
+
+#main-content a {
+    color: $color2;
+    text-decoration: none;
+}
+
+.pub-item {
+    margin-bottom: 20px;
+    border: solid 1px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.pub-author {
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+.pub-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pub-booktitle {
+    font-style: italic;
+}
+
+.pub-year {
+    background-color: $color3;
+    border: 3px solid $color3;
+    color: $color4;
+    font-weight: 700;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+#photo {
+    width: 15%;
+    float: left;
+    display: block;
+    border: 10px solid whitesmoke;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.39);
+    -webkit-box-shadow: 5px 5px 20px rgba(0,0,0,0.39);
+    -moz-box-shadow: 5px 5px 20px rgba(0,0,0,0.39);
+    // box-shadow: 0px 13px 27px -5px rgba(0,0,0,0.39);
+    // -webkit-box-shadow: 0px 13px 27px -5px rgba(0,0,0,0.39);
+    // -moz-box-shadow: 0px 13px 27px -5px rgba(0,0,0,0.39);
+}
+
+.row {
+    padding-bottom: 50px;
+}
+
+.contact-column {
+   float: left;
+   width: 45%;
+   padding: 10px;
+    font-size: 1.1em;
+    color: $color1;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.contact-column h2 {
+    font-size: 16px;
+    color: $color2;
+    font-weight: 700;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#page-header {
+
+}
+
+nav {
+    border-top: solid 2px $color2;
+    border-bottom: solid 2px $color2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0f1626;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: $color3
+}

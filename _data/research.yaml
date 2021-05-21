@@ -1,0 +1,12 @@
+title: Research Interest
+content: |
+  I have diverse research interests including operating systems, real-time systems, and multi-core architectures.
+  My research essentially revolves around the practical aspects of real-time systems.
+
+  During my PhD, I worked on the problem of memory interference in multi-core processors.
+  Memory interference occurs when several applications running in parallel on the same hardware platform contend for memory system hardware components.
+  Such components include shared caches, memory controllers, buses or DRAM banks.
+  Memory interference is a serious obstacle to the adoption of cheap multi-core hardware platforms for real-time systems, as they are causing significant and hard-to-predict delays to co-running applications.
+  As part of my PhD, I developed some tools and microbenchmarks to study and predict the impact of memory interference on applications runtime depending on their memory usage patterns.
+
+  At MPI-SWS, I am working on the design and implementation of time predictable operating system mechanisms as part of the [TOROS](https://toros.mpi-sws.org) project.

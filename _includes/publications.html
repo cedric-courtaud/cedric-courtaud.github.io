@@ -1,0 +1,15 @@
+
+<h2> Conference papers </h2>
+
+{% assign conferences = site.data.publications | where: "type", "conference" | sort: "year" | reverse %}
+{% include pub-item.html items=conferences %}
+
+<h2> Patent </h2>
+
+{% assign patents = site.data.publications | where: "type", "patent" %}
+{% include pub-item.html items=patents %}
+
+<h2> PhD Thesis </h2>
+
+{% assign phdthesis = site.data.publications | where: "type", "phdthesis" %}
+{% include pub-item.html items=phdthesis%}
