@@ -18,7 +18,7 @@
   type: conference
 
 
-- title: Improving Prediction Accuracy of Memory Interferences for Multicore Platforms
+- title: Improving prediction accuracy of memory interferences for multicore platforms
   author: Cédric Courtaud, Julien Sopena, Gilles Muller, Daniel Gracia Pérez
   booktitle: IEEE Real-Time Systems Symposium (RTSS)
   year: 2019
