@@ -1,3 +1,9 @@
+- title: G(IP)^2 C: Temporally Isolated Multiprocessor Real-Time IPC with Server-to-Server Invocations.
+  author: Cédric Courtaud, Björn B. Brandenburg
+  booktitle: 29th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'2023)
+  year: 2023
+  type: conference
+
 - title: Maximizing parallelism without exploding deadlines in a mixed criticality embedded system
   author: Antoine Blin, Cédric Courtaud, Julien Sopena, Julia Lawall, Gille Muller
   booktitle: 28th Euromicro Conference on Real-Time Systems (ECRTS'2016)
