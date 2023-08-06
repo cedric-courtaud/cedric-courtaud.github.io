@@ -1,8 +1,10 @@
 {% for publication in include.items %}
     <div class="pub-item">
-        <div class="pub-year">  {{ publication.year}} </div>
-        <div class="pub-title">  {{ publication.title }} </div>
-        <div class="pub-author">  {{ publication.author }} </div>
-        <div class="pub-booktitle">  {{ publication.booktitle }} </div>
+        <!--
+        <div class="pub-year">  {{ publication.year}} </div> 
+        -->
+        <span class="pub-author">  {{ publication.author }}.</span>
+        <span class="pub-title">  {{ publication.title }}.</span>
+        <span class="pub-booktitle">  {{ publication.booktitle }}.</span>
     </div>
 {% endfor %}
