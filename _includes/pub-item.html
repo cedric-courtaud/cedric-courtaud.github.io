@@ -6,5 +6,9 @@
         <span class="pub-author">  {{ publication.author }}.</span>
         <span class="pub-title">  {{ publication.title }}.</span>
         <span class="pub-booktitle">  {{ publication.booktitle }}.</span>
+        {% if publication.award %}
+        {{publication.award }}
+        {% endif %}
+        
     </div>
 {% endfor %}
