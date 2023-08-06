@@ -3,11 +3,12 @@
         <!--
         <div class="pub-year">  {{ publication.year}} </div> 
         -->
-        <span class="pub-author">  {{ publication.author }}.</span>
+        <span class="pub-author">  {{ publication.author }}</span>
         <span class="pub-title">  {{ publication.title }}.</span>
         <span class="pub-booktitle">  {{ publication.booktitle }}.</span>
+        <span class="pub-year">  {{ publication.year}} </span>
         {% if publication.award %}
-        <span class="pub-award">({{publication.award }})</span>
+        <span class="pub-award">({{ publication.award }})</span>
         {% endif %}
         
     </div>
