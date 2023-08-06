@@ -1,6 +1,6 @@
-- title: G(IP)^2C\: Temporally Isolated Multiprocessor Real-Time IPC with Server-to-Server Invocations.
+- title: "G(IP)^2C\: Temporally Isolated Multiprocessor Real-Time IPC with Server-to-Server Invocations"
   author: Cédric Courtaud, Björn B. Brandenburg
-  booktitle: 29th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'2023)
+  booktitle: 29th IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'2023) ** Best Paper Award **
   year: 2023
   type: conference
 
@@ -19,7 +19,7 @@
 
 - title: Improving Prediction Accuracy of Memory Interferences for Multicore Platforms
   author: Cédric Courtaud, Julien Sopena, Gilles Muller, Daniel Gracia Pérez
-  booktitle: 40th IEEE Real-Time Systems Symposium (RTSS'2019),
+  booktitle: 40th IEEE Real-Time Systems Symposium (RTSS'2019)
   year: 2019
   type: conference
 
