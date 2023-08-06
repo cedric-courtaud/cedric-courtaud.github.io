@@ -114,16 +114,12 @@ h2 {
 }
 
 .pub-year {
-    background-color: $color3;
-    border: 3px solid $color3;
-    color: $color4;
-    font-weight: 700;
-    border-radius: 20px;
-    width: fit-content;
-    padding: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: 5px;
+}
+
+.pub-award {
+    font-weight: bold;
+    font-style: italic;
+    color: #ff533d;
 }
 
 #photo {
