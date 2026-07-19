@@ -1,3 +1,9 @@
+- title: "LiME: The Linux Real-Time Task Model Extractor"
+  author: Björn B. Brandenburg, Cédric Courtaud, Filip Marković, Bite Ye
+  booktitle: IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)
+  year: 2025
+  type: conference
+
 - title: "G(IP)^2C: Temporally isolated multiprocessor real-Time IPC with server-to-server invocations"
   author: Cédric Courtaud, Björn B. Brandenburg
   booktitle: IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)
